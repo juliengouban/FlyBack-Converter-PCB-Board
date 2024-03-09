@@ -29,27 +29,30 @@ Input elements C4, C5 and C6 are used for input power filtering.
 The R2 resistor is for the On time related purpose :
 ![alt text 1](picture/2.png) 
 
-We have a 7-segment 4-digit display for time, temperature and humidity : 
+R4, C5 and C9 are the ripple filter where as R8 and R9 providing the feedback voltage to the feedback pin of the LM5160. This two resistors ration determine the output voltage. C10 and C11 are used for primary non isolated output filteration.
 
-![alt text 1](picture/at2.png) 
+A major component is the T1. It is a coupled inductor with a 60uH inductor on both sides, primary and secondary. 
+
+![alt text 1](picture/3.png) 
+
+C13 capacitor connected across the SS pin is a soft start capacitor. The AGND (Analog Ground) and PGND (Power Ground) and the PAD is connected with the supply GND. On the Right side, C11, 0.01 uF capacitor is a Bootstrap capacitor which is used for the biasing of the gate driver. 
+
+![alt text 1](picture/4.png) 
+
 
 ## PCB Design
 
-The PCB consists of two layers, Top Layer and Bottom Layer. We've added a micro-usb connector to the top left of the PCB so that we can power the board and program the ATtiny from Arduino IDE.
-
-We've added a 7-segment display to read the time, temperature and humidity.
-
-The middle of the PCB shows the ATtiny 2313A in gray. In blue we have the DHT11 sensor. Finally, at the bottom of the board is the DS1307 with a button cell to power it:
+The PCB was created using Altium Designer. It's a two-layer board produced by JLPCB (Easy Eda). We followed the recommendations found in the datasheet for the FlyBack converter (LM5160ADNTT) or the board's electronic schematic and routing.
 
 Here's the top layer view of the PCB:
 
-![alt text 1](picture/at_pcb.png) 
+![alt text 1](picture/PCB2.png) 
 
 
 
 Here is a 3d view of the PCB:
 
-![alt text 1](picture/pcb_2.png) 
+![alt text 1](picture/PCB1.png) 
 
 
 ## Arduino Factory
