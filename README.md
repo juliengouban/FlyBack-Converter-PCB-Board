@@ -57,7 +57,7 @@ Here is a 3d view of the PCB:
 
 ## Arduino Factory
 
- * [More details on this project](https://arduinofactory.fr/carte-pcb-station-meteo/)
+ * [More details on this project](https://arduinofactory.fr/carte-pcb-convertisseur-flyback/)
   
 
 
