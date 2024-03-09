@@ -1,0 +1,33 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCB_Flyback_Converter.PrjPcb]
+   Generated File[Flyback_PCB.GTO]
+   Generated File[Flyback_PCB.GTP]
+   Generated File[Flyback_PCB.GTS]
+   Generated File[Flyback_PCB.GTL]
+   Generated File[Flyback_PCB.GBL]
+   Generated File[Flyback_PCB.GBS]
+   Generated File[Flyback_PCB.GBP]
+   Generated File[Flyback_PCB.GBO]
+   Generated File[Flyback_PCB.GM1]
+   Generated File[Flyback_PCB.GM10]
+   Generated File[Flyback_PCB.GM12]
+   Generated File[Flyback_PCB.GM13]
+   Generated File[Flyback_PCB.GM15]
+   Generated File[Flyback_PCB.GM20]
+   Generated File[Flyback_PCB.GKO]
+   Generated File[Flyback_PCB.GPT]
+   Generated File[Flyback_PCB.GPB]
+   Generated File[Flyback_PCB.1]
+   Generated File[Flyback_PCB.GML]
+   Generated File[Flyback_PCB.GD1]
+   Generated File[Flyback_PCB.GG1]
+   Generated File[Flyback_PCB.GM]
+   Generated File[Flyback_PCB.EXTREP]
+   Generated File[Flyback_PCB.REP]
+
+
+Files Generated   : 24
+Documents Printed : 0
+
+Finished Output Generation At 11:41:26 On 08/03/2024
